@@ -1,15 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>Ranking vídeos IT Academy</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/estilos.css">
+	<script type="text/javascript" src="js/scripts.js"></script>
+
 </head>
 <body>
 	<header>
-		
+	<h1>Vídeos Itineraris IT Academy</h1>	
 	</header>
+	<form action="#" method="get" name="formItinerari" id="formItinerari">
+		<label for="itinerari"> Escull un itinerari</label>
+		<select name="itinerari" id="itinerari">
+			<option value="fe">FE</option>
+			<option value="be">BE</option>
+			<option value="ad">AD</option>
+		</select>
+	</form>
+	<section class="listaVideosFront" id="front">
+		<ul>
+			<li>
+				<input type="radio" name="video" value="programing" id="programing">
+				<label for="programing">What is programming? </label>
+			</li>
+			<li>
+				<input type="radio" name="video" value="html" id="html">
+				<label for="html">HTML</label>
+			</li>
+			<li><input type="radio" name="video" value="css" id="css"><label for="css">CSS</label></li>
+		</ul>	
+	</section>
+
+	<section class="listaVideosBack">
+		<ul>
+			<li>
+				<input type="radio" name="video" value="programing" id="php">
+				<label for="php">PHP</label>
+			</li>
+			<li>
+				<input type="radio" name="video" value="mysql" id="mysql">
+				<label for="mysql">Mysql</label>
+			</li>
+			<li><input type="radio" name="video" value="ajax" id="ajax"><label for="ajax">Ajax</label></li>
+		</ul>	
+	</section>
 
 </body>
 </html>
